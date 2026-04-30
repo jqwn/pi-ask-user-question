@@ -1,0 +1,38 @@
+{
+  "name": "@jqwn/pi-ask-user-question",
+  "version": "0.1.0",
+  "description": "A Pi extension that lets the model ask rich multi-question TUI dialogs with options, descriptions, previews, multi-select, and custom answers.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "llm",
+    "tui",
+    "questions"
+  ],
+  "license": "MIT",
+  "author": "Jesse Wang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqwn/pi-ask-user-question.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jqwn/pi-ask-user-question/issues"
+  },
+  "homepage": "https://github.com/jqwn/pi-ask-user-question#readme",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "typebox": "*"
+  }
+}
