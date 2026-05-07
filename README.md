@@ -76,10 +76,6 @@ The extension also provides a manual demo command:
 - Use `multiSelect` only when multiple options can be chosen together.
 - Use previews only for concrete artifacts users need to compare, like snippets, configs, or ASCII mockups.
 
-## Publishing
-
-This package includes the `pi-package` keyword and `pi.extensions` manifest so it can be discovered by Pi's package gallery after being published to npm.
-
 ## License
 
 MIT
